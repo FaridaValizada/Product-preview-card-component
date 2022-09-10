@@ -1,6 +1,11 @@
 body {
   background-color: hsl(30, 38%, 92%);
   color: hsl(228, 12%, 48%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -85,4 +90,8 @@ p {
   background-image: -o-linear-gradient(top, #0d4223, #0d4223);
   background-image: linear-gradient(to bottom, #0d4223, #0d4223);
   text-decoration: none;
+}
+
+.attribution {
+  text-align: center;
 }
