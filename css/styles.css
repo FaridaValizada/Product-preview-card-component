@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  color: hsl(228, 12%, 48%);
+}
+
+img {
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+.preview {
+  letter-spacing: 5px;
+}
+
+.square {
+  background-color: white;
+  height: 450px;
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.product-description {
+  padding: 20px 30px;
+
+}
+
+.actual-price {
+  display: inline;
+  margin-bottom: 50px;
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 1.5625rem;
+}
+
+.old-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 14px;
+  position: relative;
+  left: 20px;
+  bottom: 5px;
+}
+
+.shopping-trolley {
+  width: 20%;
+  margin-right: 0;
+}
+
+.btn {
+  background: hsl(158, 36%, 37%);
+  background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), hsl(158, 36%, 37%));
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  padding: 15px 80px 15px 60px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3S;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #0d4223;
+  background-image: -webkit-linear-gradient(top, #0d4223, #0d4223);
+  background-image: -moz-linear-gradient(top, #0d4223, #0d4223);
+  background-image: -ms-linear-gradient(top, #0d4223, #0d4223);
+  background-image: -o-linear-gradient(top, #0d4223, #0d4223);
+  background-image: linear-gradient(to bottom, #0d4223, #0d4223);
+  text-decoration: none;
+}
