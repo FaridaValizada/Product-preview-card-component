@@ -59,8 +59,8 @@ p {
 }
 
 .shopping-trolley {
-  width: 20%;
-  margin-right: 0;
+  width: 1rem;
+  margin-right: 1rem;
 }
 
 .btn {
@@ -71,12 +71,15 @@ p {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   font-size: 14px;
-  padding: 15px 80px 15px 60px;
   outline: none;
   cursor: pointer;
   transition: 0.3S;
   text-decoration: none;
   border: none;
+  width: 44%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
 
 .btn:hover {
